@@ -1,0 +1,94 @@
+{
+    "restaurant_info": {
+        "name": "Crema & Craft",
+        "tagline": "Your Daily Ritual, Perfected.",
+        "type": "Specialty Coffee Shop & Espresso Bar",
+        "founded_year": 2024
+    },
+    "home_section": {
+        "headline": "Your Daily Ritual, Perfected.",
+        "sub_headline": "Single-origin beans, precision extraction, and a cozy space to slow down.",
+        "about_us": "At Crema & Craft, we treat coffee as both a science and an art form. Sourced from sustainable high-altitude farms and roasted in small batches, every cup is brewed to highlight unique tasting notes. Whether you're grabbing a morning flat white or settling in with a book over cold brew, we’re here to fuel your day.",
+        "opening_hours": {
+            "monday_to_friday": "7:00 AM – 7:00 PM",
+            "saturday_to_sunday": "8:00 AM – 8:00 PM (Fresh Pastries Daily)"
+        }
+    },
+    "menu_section": {
+        "categories": [
+            {
+                "category_name": "Espresso & Coffee",
+                "items": [
+                    {
+                        "id": "coffee_01",
+                        "name": "Signature Flat White",
+                        "price": "₹280",
+                        "numeric_price": 280,
+                        "currency": "INR",
+                        "description": "Double ristretto shot with microfoam milk, silky texture, and balanced caramel notes."
+                    },
+                    {
+                        "id": "coffee_02",
+                        "name": "Pour-Over (Single Origin)",
+                        "price": "₹320",
+                        "numeric_price": 320,
+                        "currency": "INR",
+                        "description": "Hand-poured filter coffee featuring bright fruit and floral notes (Ethiopian Yirgacheffe)."
+                    },
+                    {
+                        "id": "coffee_03",
+                        "name": "Cold Brew (12-Hour Steep)",
+                        "price": "₹300",
+                        "numeric_price": 300,
+                        "currency": "INR",
+                        "description": "Smooth, low-acidity cold brew served over crystal-clear ice."
+                    },
+                    {
+                        "id": "coffee_04",
+                        "name": "Classic Cortado",
+                        "price": "₹250",
+                        "numeric_price": 250,
+                        "currency": "INR",
+                        "description": "Equal parts espresso and warm textured milk."
+                    }
+                ]
+            },
+            {
+                "category_name": "Bakery & Bites",
+                "items": [
+                    {
+                        "id": "bakery_01",
+                        "name": "All-Butter Croissant",
+                        "price": "₹220",
+                        "numeric_price": 220,
+                        "currency": "INR",
+                        "description": "Flaky, golden layers baked fresh every morning."
+                    },
+                    {
+                        "id": "bakery_02",
+                        "name": "Sourdough Avocado Toast",
+                        "price": "₹380",
+                        "numeric_price": 380,
+                        "currency": "INR",
+                        "description": "Mashed avocado, pickled red onions, chili flakes, micro-greens on toasted artisanal sourdough."
+                    },
+                    {
+                        "id": "bakery_03",
+                        "name": "Dark Chocolate Sea Salt Cookie",
+                        "price": "₹180",
+                        "numeric_price": 180,
+                        "currency": "INR",
+                        "description": "Warm, gooey cookie packed with 70% dark chocolate chunks and flaked sea salt."
+                    }
+                ]
+            }
+        ]
+    },
+    "contact_section": {
+        "header": "Come Say Hi",
+        "address": "14 Lane 4, Mehrauli-Gurgaon Road, New Delhi, 110030",
+        "phone": "+91 91234 56789",
+        "email": "hello@cremacraft.com",
+        "perks": "High-speed Wi-Fi available for remote workers. Pet-friendly outdoor seating open all day!"
+    }
+}

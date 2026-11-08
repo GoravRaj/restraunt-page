@@ -1,3 +1,4 @@
+import data from "../data/crema_and_craft_data.json";
 
 function loadHome(container) {
     const homeHeading = document.createElement("h1");
@@ -10,16 +11,16 @@ function loadHome(container) {
     const openingDaysLI_1 = document.createElement("li");
     const openingDaysLI_2 = document.createElement("li");
 
-    openingDaysLI_1.innerText = "Monday – Friday: 7:00 AM – 7:00 PM";
-    openingDaysLI_2.innerText = "Saturday – Sunday: 8:00 AM – 8:00 PM (Fresh Pastries Daily)";
+    openingDaysLI_1.innerText = `${data.home_section.opening_hours.monday_to_friday}`;
+    openingDaysLI_2.innerText = `${data.home_section.opening_hours.saturday_to_sunday}`;
     openingDaysUL.appendChild(openingDaysLI_1);
     openingDaysUL.appendChild(openingDaysLI_2);
 
-    descPara.innerText = "At Crema & Craft, we treat coffee as both a science and an art form. Sourced from sustainable high-altitude farms and roasted in small batches, every cup is brewed to highlight unique tasting notes. Whether you're grabbing a morning flat white or settling in with a book over cold brew, we’re here to fuel your day."
+    descPara.innerText = `${data.home_section.about_us}`;
     descContainer.appendChild(descPara);
 
-    tagLine.innerText = `"why pasta is eaten in small quantity" is it grammatically correct?`
-    homeHeading.innerText = "Your Daily Ritual, Perfected.";
+    tagLine.innerText = `${data.home_section.sub_headline}`;
+    homeHeading.innerText = `${data.home_section.headline}`;
 
     container.appendChild(homeHeading);
     container.appendChild(tagLine);
