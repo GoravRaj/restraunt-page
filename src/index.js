@@ -10,11 +10,31 @@ const menuNav = document.getElementById("nav-menu");
 const aboutNav = document.getElementById("nav-about");
 
 
-homeNav.addEventListener("click", () => loadHome(contentContainer));
-menuNav.addEventListener("click", () => loadMenu(contentContainer));
-aboutNav.addEventListener("click", () => loadAbout(contentContainer));
+function setActiveButton(activeBtn) {
+    homeNav.classList.remove("active");
+    menuNav.classList.remove("active");
+    aboutNav.classList.remove("active");
+
+    activeBtn.classList.add("active");
+}
 
 
- loadHome(contentContainer);
+homeNav.addEventListener("click", () => {
+    setActiveButton(homeNav);
+    loadHome(contentContainer);
+});
+
+menuNav.addEventListener("click", () => {
+    setActiveButton(menuNav);
+    loadMenu(contentContainer);
+});
+
+aboutNav.addEventListener("click", () => {
+    setActiveButton(aboutNav);
+    loadAbout(contentContainer);
+});
+
+
+loadHome(contentContainer);
 // loadAbout(contentContainer);
 // loadMenu(contentContainer);

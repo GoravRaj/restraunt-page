@@ -57,10 +57,18 @@ header {
 }
 
 .nav-btn:hover {
+	border-color: #00f2ff;
+	color: #00f2ff;
+}
+
+.nav-btn:active {
+	transform: scale(0.95);
+}
+
+.nav-btn.active {
 	background: #00f2ff;
 	color: #0f0f11;
 	border-color: #00f2ff;
-	transform: translateY(-1px);
 }
 
 /* Main Container*/
@@ -106,7 +114,6 @@ p {
 ul {
 	list-style: none;
 }
-
 
 /* Headline & Subheadline */
 #content > h1 {
