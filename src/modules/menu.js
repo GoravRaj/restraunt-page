@@ -46,12 +46,17 @@ function loadMenu(container) {
 
     const coffeeSection = document.createElement("div");
     const bakerySection = document.createElement("div");
+    const headingCoffee = document.createElement("h3");
+    const headingBakery = document.createElement("h3");
 
-    coffeeSection.appendChild(coffeeList);
-    bakerySection.appendChild(bakeryList);
+    headingCoffee.innerText = data.menu_section.categories[0].category_name;
+    headingBakery.innerText = data.menu_section.categories[1].category_name;
+
+    coffeeSection.append(headingCoffee, coffeeList);
+    bakerySection.append(headingBakery, bakeryList);
 
     menuContainer.append(coffeeSection, bakerySection);
-
+    container.innerHTML = "";
     container.appendChild(menuContainer);
     
 

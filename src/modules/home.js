@@ -22,6 +22,8 @@ function loadHome(container) {
     tagLine.innerText = `${data.home_section.sub_headline}`;
     homeHeading.innerText = `${data.home_section.headline}`;
 
+    container.innerHTML = "";
+
     container.appendChild(homeHeading);
     container.appendChild(tagLine);
     container.appendChild(descContainer);
